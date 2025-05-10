@@ -6,4 +6,11 @@
 @theme{
     /*Fonts*/
     --font-inter: "Inter", sans-serif;
+
+    /*Colors*/
+    --color-base-color: #907565;
+    --color-light-accent: #D3C5BC; /*A lighter, desaturated version of the base, good for backgrounds or spacious areas*/
+    --color-darker-accent: #6E594F; /*A darker shade for text or subtle emphasis, providing good contrast*/
+    --color-soft-highlight: #F5F1EE; /*A very light, warm off-white or beige for call-to-action backgrounds or highlights, creating a gentle lift*/
+    --color-optional-caling-accent: #A7B0A9;/*A muted, soft sage green. Green is often associated with nature, tranquility, and refreshment. */
 }
