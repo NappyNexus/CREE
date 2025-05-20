@@ -6,15 +6,21 @@
     <link href="./output.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    <header>
+<bodyc class="box-border">
+    <header class="flex justify-between items-center">
         <!-- Logo -->
-        <div>
-             <h1>CREE</h1>
+        <div class="flex items-center gap-2">
+            <svg id="menu-open" class="hover:cursor-pointer" height="28" width="28">
+                <use xlink:href="/assets/sprite.svg#menu"></use>
+            </svg>
+            <svg id="menu-open" class="hidden hover:cursor-pointer" height="28" width="28">
+                <use xling:href="/assets/sprite.svg#close_menu"></use>
+            </svg>
+             <h1 class="font-inter font-bold text-xl">CREE</h1>
         </div>
         <!-- Navbar -->
-        <nav>
-            <ul>
+        <nav >
+            <ul class="flex-col hidden">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Solutions</a></li>
@@ -145,5 +151,7 @@
     </svg><svg class="icon">
     <use xlink:href="/assets/sprite.svg#menu"></use>
     </svg> -->
-</body>
+
+    <script src="index.js"></script>
+</bodyc>
 </html>
