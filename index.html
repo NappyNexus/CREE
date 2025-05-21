@@ -6,8 +6,8 @@
     <link href="./output.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<bodyc class="box-border">
-    <header class="flex justify-between items-center">
+<body class="box-border">
+    <header class="flex justify-between items-center p-3 border-b-1 border-gray-300">
         <!-- Logo -->
         <div class="flex items-center gap-2">
             <svg id="menu-open" class="hover:cursor-pointer" height="28" width="28">
@@ -19,8 +19,8 @@
              <h1 class="font-inter font-bold text-xl">CREE</h1>
         </div>
         <!-- Navbar -->
-        <nav >
-            <ul class="flex-col hidden">
+        <nav class="bg-amber-400 relative">
+            <ul class="flex-col absolute">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Solutions</a></li>
@@ -29,20 +29,23 @@
         </nav>
         <!-- Contact button -->
         <div>
-            <a href="#">Contact Us</a>
+            <a href="#" class="bg-base-color text-white font-monse font-semibold py-2 px-5 rounded-full">Contact Us</a>
         </div>
     </header>
 
-    <main>
+    <main class="max-w-md mx-auto hidden">
         <section>
             <!-- Right -->
             <div>
-                <h3>we care</h3>
-                <h1>You are not alone, we are always together</h1>
-                <p>Relax, none of this is your fault. Don't stop, what you're afraid of won't happen.</p>
-                <div>
-                    <a href="#">Book an Appointment</a>
-                    <a href="#">Explore Category</a>
+                <div class="flex items-center pt-5">
+                    <div class="flex-grow border-t border-gray-700"></div>
+                    <span class="ml-4 font-monse font-medium text-gray-700">WE CARE</span>
+                </div>
+                <h1 class="mt-2 font-monse text-5xl inline-block mx-auto">You are <span class="font-semibold">not alone,</span> we are always <span class="font-semibold">together</span></h1>
+                <p class="mt-5 font-monse">Relax, none of this is your fault. Don't stop, what you're afraid of won't happen.</p>
+                <div class="mt-5 mx-auto flex justify-around">
+                    <a href="#" class="bg-base-color text-white font-monse font-semibold py-2 px-5 rounded-full hover:bg-darker-accent ease-in-out duration-300">Book an Appointment</a>
+                    <a href="#" class="bg-base-color text-white font-monse font-semibold py-2 px-5 rounded-full hover:bg-darker-accent ease-in-out duration-300" >Explore Category</a>
                 </div>
                 <!-- Rating -->
                  <div>
@@ -68,7 +71,7 @@
              </div>
         </section>
 
-        <section>
+        <section class="hidden">
             <!-- pictures grid -->
              <div>
                 <img src="" alt="">
@@ -92,12 +95,12 @@
               </div>
         </section>
 
-        <section>
+        <section class="hidden">
             <img src="" alt="">
             <p>"But, in the end a person needs more courage to live than to kill himself. For anyone out there who is hurting, asking for help is not a sign of weakness. It is a sign of strengh."</p>
         </section>
 
-        <section>
+        <section class="hidden">
             <!-- grid -->
             <div>
                 <div>
@@ -132,7 +135,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="hidden">
             <!-- Gird -->
         </section>
     </main>
@@ -153,5 +156,5 @@
     </svg> -->
 
     <script src="index.js"></script>
-</bodyc>
+</body>
 </html>

@@ -3,15 +3,24 @@
 @font-face {
     font-family: "Inter", sans-serif;
     src: url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
-    font-optical-sizing: auto;
+    /*font-optical-sizing: auto;*/
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face{
+    font-family: "Montserrat", sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+    font-optical-sizing: auto;
+    font-weight: 100 900;
+    font-style: normal;
+}
+
 @theme{
     /*Fonts*/
     --font-inter: "Inter", sans-serif;
+    --font-monse: "Montserrat", sans-serif;
 
     /*Colors*/
     --color-base-color: #907565;
