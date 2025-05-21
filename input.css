@@ -1,4 +1,8 @@
 @import "tailwindcss";
+/* Flowbite */
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
 
 @font-face {
     font-family: "Inter", sans-serif;
