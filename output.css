@@ -1580,6 +1580,9 @@
   .max-w-screen-xl {
     max-width: var(--breakpoint-xl);
   }
+  .max-w-sm {
+    max-width: var(--container-sm);
+  }
   .datatable-input {
     .datatable-wrapper .datatable-search & {
       color: var(--color-gray-900);
@@ -1833,6 +1836,10 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-b-2 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 2px;
+  }
   .dark {
     & .apexcharts-canvas .apexcharts-tooltip {
       background-color: var(--color-gray-700) !important;
@@ -1984,6 +1991,9 @@
   .border-gray-700 {
     border-color: var(--color-gray-700);
   }
+  .border-b-gray-200 {
+    border-bottom-color: var(--color-gray-200);
+  }
   .apexcharts-active {
     .apexcharts-canvas .apexcharts-tooltip-series-group& .apexcharts-tooltip-y-group {
       padding: 0 !important;
@@ -2132,6 +2142,9 @@
   }
   .p-2\.5 {
     padding: calc(var(--spacing) * 2.5);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
   }
   .p-4 {
     padding: calc(var(--spacing) * 4);

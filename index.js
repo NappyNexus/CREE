@@ -1,10 +1,15 @@
-// const mobileMenuButtton = document.getElementById('mobile-menu-button');
-// const mobileMenu = document.getElementById('mobile-menu');
-// const openMenu = mobileMenuButtton.querySelector('svg:first-child');
-// const closeMenu = mobileMenuButtton.querySelector('svg:last-child');
+// document.addEventListener('click', function(event) {
+//     const dropdown = document.getElementById('mega-menu-icons-dropdown');
+//     const button = document.getElementById('mega-menu-icons-dropdown-button');
 
-// mobileMenuButtton.addEventListener('click', () => {
-//     mobileMenu.classList.toggle('hidden');
-//     openMenu.classList.toggle('hidden');
-//     closeMenu.classList.toggle('hidden');
-// })
+//     // Check if click is outside the dropdown and button
+//     if (!dropdown.contains(event.target) && !button.contains(event.target)) {
+//         dropdown.classList.add('hidden');
+//     }
+// });
+
+// Toggle dropdown visibility when the button is clicked
+// document.getElementById('mega-menu-icons-dropdown-button').addEventListener('click', function(e) {
+//     const dropdown = document.getElementById('mega-menu-icons-dropdown');
+//     dropdown.classList.toggle('hidden');
+// });
