@@ -27,10 +27,8 @@
     --color-orange-700: #9C4221;
     --color-orange-800: #7B341E;
     --color-orange-900: #652B19;
-    --color-amber-100: oklch(96.2% 0.059 95.617);
     --color-amber-200: oklch(92.4% 0.12 95.746);
     --color-amber-300: oklch(87.9% 0.169 91.605);
-    --color-amber-700: oklch(55.5% 0.163 48.998);
     --color-yellow-50: #FFFBEB;
     --color-yellow-100: #FEF3C7;
     --color-yellow-200: #FDE68A;
@@ -1347,12 +1345,6 @@
       color: white;
     }
   }
-  .mr-0 {
-    margin-right: calc(var(--spacing) * 0);
-  }
-  .mr-1 {
-    margin-right: calc(var(--spacing) * 1);
-  }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
@@ -1433,9 +1425,6 @@
       border-bottom-color: var(--color-gray-700) !important;
     }
   }
-  .ml-0 {
-    margin-left: calc(var(--spacing) * 0);
-  }
   .ml-3 {
     margin-left: calc(var(--spacing) * 3);
   }
@@ -1498,9 +1487,6 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
-  .h-7 {
-    height: calc(var(--spacing) * 7);
-  }
   .h-8 {
     height: calc(var(--spacing) * 8);
   }
@@ -1533,9 +1519,6 @@
   }
   .min-h-\[300px\] {
     min-height: 300px;
-  }
-  .min-h-screen {
-    min-height: 100vh;
   }
   .datatable-table {
     .datatable-wrapper & {
@@ -1620,9 +1603,6 @@
       text-align: center;
     }
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -1640,9 +1620,6 @@
   }
   .w-5 {
     width: calc(var(--spacing) * 5);
-  }
-  .w-6 {
-    width: calc(var(--spacing) * 6);
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
@@ -1664,9 +1641,6 @@
   }
   .max-w-2xl {
     max-width: var(--container-2xl);
-  }
-  .max-w-9 {
-    max-width: calc(var(--spacing) * 9);
   }
   .max-w-9\/10 {
     max-width: calc(9/10 * 100%);
@@ -1754,17 +1728,8 @@
   .flex-shrink-0 {
     flex-shrink: 0;
   }
-  .flex-shrink-1 {
-    flex-shrink: 1;
-  }
-  .flex-shrink-2 {
-    flex-shrink: 2;
-  }
   .flex-grow {
     flex-grow: 1;
-  }
-  .border-collapse {
-    border-collapse: collapse;
   }
   .-translate-x-full {
     --tw-translate-x: -100%;
@@ -2152,12 +2117,6 @@
       background-color: var(--color-gray-700);
     }
   }
-  .bg-amber-200 {
-    background-color: var(--color-amber-200);
-  }
-  .bg-amber-300 {
-    background-color: var(--color-amber-300);
-  }
   .bg-base-color {
     background-color: var(--color-base-color);
   }
@@ -2214,47 +2173,17 @@
       background-color: var(--color-gray-700);
     }
   }
-  .bg-\[url\(\/assets\/1967209_7614\.svg\)\] {
-    background-image: url(/assets/1967209_7614.svg);
-  }
   .bg-\[url\(\/assets\/beautiful-landscape-with-river-bridge-background\.jpg\)\] {
     background-image: url(/assets/beautiful-landscape-with-river-bridge-background.jpg);
   }
   .bg-\[url\(\/assets\/close-up-white-marble-textured-wall\.jpg\)\] {
     background-image: url(/assets/close-up-white-marble-textured-wall.jpg);
   }
-  .bg-contain {
-    background-size: contain;
-  }
   .bg-cover {
     background-size: cover;
   }
-  .bg-bottom {
-    background-position: bottom;
-  }
-  .bg-bottom-left {
-    background-position: left bottom;
-  }
-  .bg-bottom-right {
-    background-position: right bottom;
-  }
-  .bg-center {
-    background-position: center;
-  }
-  .bg-left {
-    background-position: left;
-  }
-  .bg-right {
-    background-position: right;
-  }
   .bg-top {
     background-position: top;
-  }
-  .bg-top-left {
-    background-position: left top;
-  }
-  .bg-no-repeat {
-    background-repeat: no-repeat;
   }
   .apexcharts-datalabels-group {
     & .apexcharts-text.apexcharts-datalabel-value {
@@ -2294,18 +2223,6 @@
       fill: white !important;
     }
   }
-  .apexcharts-gridline {
-    stroke: var(--color-gray-200) !important;
-    .dark & {
-      stroke: var(--color-gray-700) !important;
-    }
-  }
-  .apexcharts-xcrosshairs {
-    stroke: var(--color-gray-200) !important;
-    .dark & {
-      stroke: var(--color-gray-700) !important;
-    }
-  }
   .apexcharts-ycrosshairs {
     stroke: var(--color-gray-200) !important;
     .dark & {
@@ -2315,17 +2232,8 @@
   .object-cover {
     object-fit: cover;
   }
-  .object-\[10\%_center\] {
-    object-position: 10% center;
-  }
-  .object-\[15\%_center\] {
-    object-position: 15% center;
-  }
   .object-\[20\%_center\] {
     object-position: 20% center;
-  }
-  .object-left {
-    object-position: left;
   }
   .apexcharts-legend {
     .apexcharts-canvas & {
@@ -2361,12 +2269,6 @@
   .p-7 {
     padding: calc(var(--spacing) * 7);
   }
-  .p-10 {
-    padding: calc(var(--spacing) * 10);
-  }
-  .p-12 {
-    padding: calc(var(--spacing) * 12);
-  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -2393,9 +2295,6 @@
   }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
-  }
-  .py-4 {
-    padding-block: calc(var(--spacing) * 4);
   }
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
@@ -2442,15 +2341,6 @@
   .text-center {
     text-align: center;
   }
-  .text-left {
-    text-align: left;
-  }
-  .text-right {
-    text-align: right;
-  }
-  .font-mono {
-    font-family: var(--font-mono);
-  }
   .font-monse {
     font-family: var(--font-monse);
   }
@@ -2465,10 +2355,6 @@
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
-  }
-  .text-6xl {
-    font-size: var(--text-6xl);
-    line-height: var(--tw-leading, var(--text-6xl--line-height));
   }
   .text-base {
     font-size: var(--text-base);
@@ -2653,9 +2539,6 @@
   .uppercase {
     text-transform: uppercase;
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .opacity-0 {
     opacity: 0%;
   }
@@ -2701,10 +2584,6 @@
   }
   .backdrop-blur-md {
     --tw-backdrop-blur: blur(var(--blur-md));
-    -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
-    backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
-  }
-  .backdrop-filter {
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
   }
@@ -2780,13 +2659,6 @@
       }
     }
   }
-  .hover\:bg-gray-700 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-gray-700);
-      }
-    }
-  }
   .hover\:bg-light-accent {
     &:hover {
       @media (hover: hover) {
@@ -2805,13 +2677,6 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-white);
-      }
-    }
-  }
-  .hover\:fill-black {
-    &:hover {
-      @media (hover: hover) {
-        fill: var(--color-black);
       }
     }
   }
@@ -2854,13 +2719,6 @@
     &:hover {
       @media (hover: hover) {
         color: var(--color-gray-900);
-      }
-    }
-  }
-  .hover\:accent-black {
-    &:hover {
-      @media (hover: hover) {
-        accent-color: var(--color-black);
       }
     }
   }
@@ -3173,12 +3031,6 @@
       line-height: var(--tw-leading, var(--text-4xl--line-height));
     }
   }
-  .md\:text-5xl {
-    @media (width >= 48rem) {
-      font-size: var(--text-5xl);
-      line-height: var(--tw-leading, var(--text-5xl--line-height));
-    }
-  }
   .md\:text-6xl {
     @media (width >= 48rem) {
       font-size: var(--text-6xl);
@@ -3385,11 +3237,6 @@
       padding-inline: calc(var(--spacing) * 16);
     }
   }
-  .lg\:px-20 {
-    @media (width >= 64rem) {
-      padding-inline: calc(var(--spacing) * 20);
-    }
-  }
   .lg\:px-24 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 24);
@@ -3405,24 +3252,9 @@
       padding-block: calc(var(--spacing) * 5);
     }
   }
-  .lg\:py-16 {
-    @media (width >= 64rem) {
-      padding-block: calc(var(--spacing) * 16);
-    }
-  }
   .lg\:py-20 {
     @media (width >= 64rem) {
       padding-block: calc(var(--spacing) * 20);
-    }
-  }
-  .lg\:py-24 {
-    @media (width >= 64rem) {
-      padding-block: calc(var(--spacing) * 24);
-    }
-  }
-  .lg\:py-28 {
-    @media (width >= 64rem) {
-      padding-block: calc(var(--spacing) * 28);
     }
   }
   .lg\:text-left {
@@ -3453,20 +3285,8 @@
       line-height: var(--tw-leading, var(--text-base--line-height));
     }
   }
-  .lg\:font-semibold {
-    @media (width >= 64rem) {
-      --tw-font-weight: var(--font-weight-semibold);
-      font-weight: var(--font-weight-semibold);
-    }
-  }
   .xl\:text-5xl {
     @media (width >= 80rem) {
-      font-size: var(--text-5xl);
-      line-height: var(--tw-leading, var(--text-5xl--line-height));
-    }
-  }
-  .\32 xl\:text-5xl {
-    @media (width >= 96rem) {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
