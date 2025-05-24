@@ -2150,6 +2150,9 @@
       background-color: var(--color-gray-700);
     }
   }
+  .bg-\[url\(\/assets\/1967209_7614\.svg\)\] {
+    background-image: url(/assets/1967209_7614.svg);
+  }
   .bg-\[url\(\/assets\/close-up-white-marble-textured-wall\.jpg\)\] {
     background-image: url(/assets/close-up-white-marble-textured-wall.jpg);
   }
@@ -2164,6 +2167,9 @@
   }
   .bg-top {
     background-position: top;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
   }
   .apexcharts-datalabels-group {
     & .apexcharts-text.apexcharts-datalabel-value {
