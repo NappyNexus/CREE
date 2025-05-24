@@ -1346,6 +1346,9 @@
       color: white;
     }
   }
+  .mr-1 {
+    margin-right: calc(var(--spacing) * 1);
+  }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
@@ -1740,6 +1743,9 @@
   }
   .flex-shrink-0 {
     flex-shrink: 0;
+  }
+  .flex-shrink-1 {
+    flex-shrink: 1;
   }
   .flex-grow {
     flex-grow: 1;
