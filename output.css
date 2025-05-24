@@ -2153,20 +2153,38 @@
   .bg-\[url\(\/assets\/1967209_7614\.svg\)\] {
     background-image: url(/assets/1967209_7614.svg);
   }
+  .bg-\[url\(\/assets\/beautiful-landscape-with-river-bridge-background\.jpg\)\] {
+    background-image: url(/assets/beautiful-landscape-with-river-bridge-background.jpg);
+  }
   .bg-\[url\(\/assets\/close-up-white-marble-textured-wall\.jpg\)\] {
     background-image: url(/assets/close-up-white-marble-textured-wall.jpg);
+  }
+  .bg-contain {
+    background-size: contain;
+  }
+  .bg-cover {
+    background-size: cover;
   }
   .bg-bottom {
     background-position: bottom;
   }
+  .bg-bottom-left {
+    background-position: left bottom;
+  }
   .bg-bottom-right {
     background-position: right bottom;
+  }
+  .bg-center {
+    background-position: center;
   }
   .bg-left {
     background-position: left;
   }
   .bg-top {
     background-position: top;
+  }
+  .bg-top-left {
+    background-position: left top;
   }
   .bg-no-repeat {
     background-repeat: no-repeat;
@@ -3134,6 +3152,11 @@
   .lg\:px-10 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:px-16 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 16);
     }
   }
   .lg\:px-24 {
