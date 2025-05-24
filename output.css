@@ -2808,10 +2808,24 @@
       }
     }
   }
+  .hover\:fill-black {
+    &:hover {
+      @media (hover: hover) {
+        fill: var(--color-black);
+      }
+    }
+  }
   .hover\:text-base-color {
     &:hover {
       @media (hover: hover) {
         color: var(--color-base-color);
+      }
+    }
+  }
+  .hover\:text-black {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-black);
       }
     }
   }
@@ -2840,6 +2854,13 @@
     &:hover {
       @media (hover: hover) {
         color: var(--color-gray-900);
+      }
+    }
+  }
+  .hover\:accent-black {
+    &:hover {
+      @media (hover: hover) {
+        accent-color: var(--color-black);
       }
     }
   }
@@ -3309,6 +3330,11 @@
       flex-direction: row;
     }
   }
+  .lg\:items-center {
+    @media (width >= 64rem) {
+      align-items: center;
+    }
+  }
   .lg\:items-end {
     @media (width >= 64rem) {
       align-items: flex-end;
@@ -3384,6 +3410,16 @@
       padding-block: calc(var(--spacing) * 16);
     }
   }
+  .lg\:py-20 {
+    @media (width >= 64rem) {
+      padding-block: calc(var(--spacing) * 20);
+    }
+  }
+  .lg\:py-24 {
+    @media (width >= 64rem) {
+      padding-block: calc(var(--spacing) * 24);
+    }
+  }
   .lg\:py-28 {
     @media (width >= 64rem) {
       padding-block: calc(var(--spacing) * 28);
@@ -3425,6 +3461,12 @@
   }
   .xl\:text-5xl {
     @media (width >= 80rem) {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
+    }
+  }
+  .\32 xl\:text-5xl {
+    @media (width >= 96rem) {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
