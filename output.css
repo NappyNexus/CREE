@@ -2244,6 +2244,9 @@
   .bg-left {
     background-position: left;
   }
+  .bg-right {
+    background-position: right;
+  }
   .bg-top {
     background-position: top;
   }
@@ -2311,6 +2314,18 @@
   }
   .object-cover {
     object-fit: cover;
+  }
+  .object-\[10\%_center\] {
+    object-position: 10% center;
+  }
+  .object-\[15\%_center\] {
+    object-position: 15% center;
+  }
+  .object-\[20\%_center\] {
+    object-position: 20% center;
+  }
+  .object-left {
+    object-position: left;
   }
   .apexcharts-legend {
     .apexcharts-canvas & {
