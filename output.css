@@ -2153,6 +2153,15 @@
   .bg-\[url\(\/assets\/close-up-white-marble-textured-wall\.jpg\)\] {
     background-image: url(/assets/close-up-white-marble-textured-wall.jpg);
   }
+  .bg-bottom {
+    background-position: bottom;
+  }
+  .bg-bottom-right {
+    background-position: right bottom;
+  }
+  .bg-left {
+    background-position: left;
+  }
   .bg-top {
     background-position: top;
   }
@@ -2245,6 +2254,15 @@
   }
   .p-6 {
     padding: calc(var(--spacing) * 6);
+  }
+  .p-7 {
+    padding: calc(var(--spacing) * 7);
+  }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
+  }
+  .p-12 {
+    padding: calc(var(--spacing) * 12);
   }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
@@ -2941,6 +2959,11 @@
       padding: calc(var(--spacing) * 6);
     }
   }
+  .md\:p-16 {
+    @media (width >= 48rem) {
+      padding: calc(var(--spacing) * 16);
+    }
+  }
   .md\:px-5 {
     @media (width >= 48rem) {
       padding-inline: calc(var(--spacing) * 5);
@@ -3095,6 +3118,11 @@
   .lg\:p-16 {
     @media (width >= 64rem) {
       padding: calc(var(--spacing) * 16);
+    }
+  }
+  .lg\:p-28 {
+    @media (width >= 64rem) {
+      padding: calc(var(--spacing) * 28);
     }
   }
   .lg\:px-10 {
