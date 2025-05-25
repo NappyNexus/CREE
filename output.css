@@ -3001,6 +3001,13 @@
       }
     }
   }
+  .hover\:text-darker-accent {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-darker-accent);
+      }
+    }
+  }
   .hover\:text-gray-600 {
     &:hover {
       @media (hover: hover) {
