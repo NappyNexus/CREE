@@ -2048,6 +2048,10 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
   }
+  .border-none {
+    --tw-border-style: none;
+    border-style: none;
+  }
   .dark {
     & .apexcharts-canvas .apexcharts-tooltip {
       background-color: var(--color-gray-700) !important;
@@ -2180,6 +2184,9 @@
       background-color: var(--color-gray-700);
       color: white;
     }
+  }
+  .border-base-color {
+    border-color: var(--color-base-color);
   }
   .border-black {
     border-color: var(--color-black);
@@ -2837,6 +2844,29 @@
       }
     }
   }
+  .hover\:border {
+    &:hover {
+      @media (hover: hover) {
+        border-style: var(--tw-border-style);
+        border-width: 1px;
+      }
+    }
+  }
+  .hover\:border-2 {
+    &:hover {
+      @media (hover: hover) {
+        border-style: var(--tw-border-style);
+        border-width: 2px;
+      }
+    }
+  }
+  .hover\:border-base-color {
+    &:hover {
+      @media (hover: hover) {
+        border-color: var(--color-base-color);
+      }
+    }
+  }
   .hover\:border-gray-300 {
     &:hover {
       @media (hover: hover) {
@@ -3287,6 +3317,12 @@
       line-height: var(--tw-leading, var(--text-2xl--line-height));
     }
   }
+  .md\:text-3xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
   .md\:text-4xl {
     @media (width >= 48rem) {
       font-size: var(--text-4xl);
@@ -3517,6 +3553,16 @@
   .lg\:px-24 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 24);
+    }
+  }
+  .lg\:px-32 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 32);
+    }
+  }
+  .lg\:px-44 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 44);
     }
   }
   .lg\:py-0 {
